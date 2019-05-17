@@ -31,3 +31,4 @@ navItems.forEach(function(item){
         item.style.fontSize = '2rem';
     });
 });
+
