@@ -1,4 +1,3 @@
-/* this is where your css for your aboutus page will go*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -112,6 +111,7 @@ section {
 
 body {
     line-height: 1;
+    background-color: #FBE8A6;
 }
 
 ol,
@@ -137,5 +137,189 @@ table {
     border-spacing: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
 
-/* //MeyerWeb Reset Above// */
+html {
+    font-size: 62.5%;
+}
+
+html,
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: #5E6164;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Russo One', sans-serif;
+    color: #303c6c;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+p {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section.nav-bar-and-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.nav-bar-and-title h1 {
+    font-size: 6rem;
+    margin-top: 35px;
+}
+
+section.nav-bar-and-title nav {
+    justify-content: space-between;
+    margin-top: 1.3rem;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+section.nav-bar-and-title nav a {
+    padding: 2rem;
+    text-decoration: none;
+    color: #f4976c;
+}
+
+footer {
+    color: #303c6c;
+    background: #f4976c;
+    padding: 20px 0;
+    border: 1px double #d2fdff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person {
+    padding-bottom: 10rem;
+}
+
+.person img {
+    max-width: 500px;
+    width: 500px;
+    border-radius: 2rem;
+}
+
+.person h2 {
+    padding: 15px;
+}
+
+.person p {
+    padding: 0 15px;
+}
+
+@media (max-width: 500px) {
+    .person img {
+        max-width: 100%;
+    }
+}
+
+.lambda {
+    margin-top: 60px;
+    border-top: 1px solid #f4976c;
+    padding: 50px 60px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 500px) {
+    .lambda {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+.lambda .lambda-text {
+    width: 50%;
+}
+
+@media (max-width: 500px) {
+    .lambda .lambda-text {
+        width: 100%;
+    }
+}
+
+.lambda .lambda-text h3 {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 500px) {
+    .lambda .lambda-text h3 {
+        margin-top: 2rem;
+    }
+}
+
+.lambda .lambda-text p {
+    margin-bottom: 26px;
+}
+
+.lambda .btn {
+    border-radius: 8px;
+    font-size: 1.6rem;
+    padding: 1rem 1rem 1.4rem 1.5rem;
+    font-weight: bold;
+    background-color: #303c6c;
+    color: white;
+    width: 9.3rem;
+    height: 3.5rem;
+}
+
+@media (max-width: 500px) {
+    .lambda .btn {
+        width: 100%;
+        text-align: center;
+        height: 6rem;
+        padding-top: 2.1rem;
+        font-size: 1.8rem;
+        margin-bottom: 1.8rem;
+    }
+}
+
+.lambda .btn:hover {
+    background-color: #5E6164;
+}
+
+.lambda .lambda-img {
+    width: 46%;
+    margin-left: 4%;
+}
+
+@media (max-width: 500px) {
+    .lambda .lambda-img {
+        width: 100%;
+        margin-left: 0.3rem;
+    }
+}
+
+.lambda .lambda-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
