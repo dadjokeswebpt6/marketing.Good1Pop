@@ -14,8 +14,33 @@ function topFunction() {
 };
 
 let welcome = document.querySelector('.welcome');
-welcome.addEventListener('click', function(event){
+welcome.addEventListener('mouseenter', function(event){
     welcome.style.color = 'blue';
+});
+
+welcome = document.querySelector('.welcome');
+welcome.addEventListener('mouseleave', function(event){
+    welcome.style.color = 'black';
+});
+
+let join = document.querySelector('.join');
+join.addEventListener('mouseenter', function(event){
+    join.style.color = 'blue';
+});
+
+join = document.querySelector('.join');
+join.addEventListener('mouseleave', function(event){
+    join.style.color = 'black';
+});
+
+let about = document.querySelector('.about');
+about.addEventListener('mouseenter', function(event){
+    about.style.color = 'blue';
+});
+
+about = document.querySelector('.about');
+about.addEventListener('mouseleave', function(event){
+    about.style.color = 'black';
 });
 
 let navItems = document.querySelectorAll('.anchors');
@@ -31,3 +56,6 @@ navItems.forEach(function(item){
         item.style.fontSize = '2rem';
     });
 });
+
+
+

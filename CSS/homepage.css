@@ -181,10 +181,11 @@ img {
   font-size: 2rem;
 }
 
-.lambda {
+.logo {
   max-width: 150px;
   align-content: center;
   padding-bottom: 20px;
+  margin-left: 40px;
 }
 
 .nav-container {
@@ -300,7 +301,7 @@ img {
 }
 
 @media (max-width: 500px) {
-  .lambda {
+  .logo {
     padding-bottom: 5px;
   }
 }

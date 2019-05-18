@@ -1,2 +1,83 @@
-/* Here is where you write the HTML for the page where we will ask users to join our mailing list */
-<p>Hello!</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Join Us</title>
+
+    <link rel = "stylesheet" type = "text/css" href = "../CSS/joinourmailinglist.css" />
+
+    <script src="../JS/joinourmailinglist.js" async></script>
+
+
+  </head>
+  <body>
+
+        <div class = "container">
+                <div class = "nav-container">
+                  <section class="nav1">
+                        <img class="logo" src="../good 1 pop small logo.png">
+                    <nav>
+                      <a class = "anchors" href = "homepage.html">Home</a>
+                      <a class = "anchors" href = "joinourmailinglist.html">Join</a>
+                      <a class = "anchors" href = "aboutus.html">About Us</a>
+                    </nav>
+                  </section>
+              </div>
+
+              <div class = "thanks">
+                  <section class="middle">
+                      <h2 class="signh2">Thank you</h2>
+                      <p class="pform">Thank you for your decision to join Good 1 Pop, we really appreciate all of our customers. We will do our best to make sure that all of your wants and needs 
+                          are always taken care of!
+                      </p>
+                  </section>
+              </div>
+              
+                <center><button class ="sign" onclick="myFunction()">Sign Up</button></center>
+              <div id="hidesignup" style="display:none;">
+                <form action="action_page.php" style="border:1px solid #ccc">
+                    <div class="formcontain">
+                        <h2 class="signh2">Sign Up</h2>
+                        <p class="pform">Please fill in this form to create an account</p>
+                        <hr>
+
+                        <label for="name"><b>First Name</b></label>
+                        <input type="text" placeholder="Enter First Name" name="name" required>
+
+                        <label for="lastname"><b>Last Name</b></label>
+                        <input type="text" placeholder="Enter Last Name" name="lastname" required>
+
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+                        
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+
+                        <label for="psw-repeat"><b>Repeat Password</b></label>
+                        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">Remember Me
+                        </label>
+
+                        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                        <div class="clearfix">
+                            <button type="button" class="cancelbtn">Cancel</button>
+                            <button type="submit" class="signupbtn">Sign Up</button>
+                        </div>
+                    </div>
+                </form>
+              </div>
+
+              <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+              <footer class = "footer">
+                <center><p>Copyright Good 1 Pop 2019</p></center>
+              </footer>
+        </div>
+  
+  </body>
+</html>
