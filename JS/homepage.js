@@ -57,5 +57,6 @@ navItems.forEach(function(item){
     });
 });
 
+document.getElementById("p1").innerHTML = "If you are interested in our product, please feel free to sign up and begin taking advantage of all we have to offer! We have normal updates and it takes no time at all to sign up and join all of us here at Good 1 Pop!";
 
 
