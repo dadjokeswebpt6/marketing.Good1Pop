@@ -402,6 +402,7 @@
  @media (max-width: 500px) {
      .logo {
          padding-bottom: 5px;
+         padding-left: 48px;
      }
  }
  
@@ -429,11 +430,10 @@
      .anchors {
          display: flex;
          flex-direction: column;
-         width: 500px;
          margin-top: 20px;
-         padding: 25px;
+         padding: 10px 100px;
          border-bottom: 1px solid #303c6c;
-         align-items: center;
+         text-align: center;
      }
  }
  
