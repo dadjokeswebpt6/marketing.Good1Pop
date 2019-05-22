@@ -324,13 +324,13 @@ section.us {
 @media (max-width: 500px) {
     .person {
         width: 95%;
-        position: relative;
     }
 }
 
 @media (max-width: 500px) {
     .person img {
         display: inline-block;
+        max-width: 250px;
     }
 }
 
