@@ -1,3 +1,12 @@
+//feel free to add any more jokes you may find!
+
+
+
+
+
+
+
+
 let jokes = ["Did you hear about the restaurant on the moon? Great food, no atmosphere.",
     "What do you call a fake noodle? An Impasta.",
     "How many apples grow on a tree? All of them.",
@@ -160,7 +169,7 @@ let jokes = ["Did you hear about the restaurant on the moon? Great food, no atmo
 ]
 
 
-var jokeOTD = jokes[Math.floor(Math.random() * jokes.length)];
+var jokeOTD = jokes[Math.floor(Math.random() * jokes.length)]; //takes a random joke from the jokes array
 
 console.log(jokeOTD);
 
@@ -168,4 +177,4 @@ console.log(jokeOTD);
 
 
 
-document.getElementById("JOTD").innerHTML = jokeOTD;
+document.getElementById("JOTD").innerHTML = jokeOTD; //assigns the JOTD id tag in the html pages to the jokeOTD variable created above
