@@ -110,8 +110,7 @@ section {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-image: radial-gradient(rgba(202, 195, 195, 0.26), #64b0f744);
+    line-height: 1;
 }
 
 ol,
@@ -148,7 +147,7 @@ html {
 html,
 body {
     font-family: 'Roboto', sans-serif;
-    color: #5E6164;
+    background-image: radial-gradient(rgba(202, 195, 195, 0.26), #64b0f744);
 }
 
 h1,
