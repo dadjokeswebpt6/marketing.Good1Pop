@@ -401,18 +401,9 @@ button:hover {
     opacity: 1;
 }
 
-.cancelbtn {
-    padding: 14px 20px;
-    background-color: #f44336;
-    width: 100%;
-    cursor: pointer;
-    opacity: 0.9;
-    color: white;
-}
-
-.cancelbtn .signupbtn {
+.signupbtn {
     float: left;
-    width: 50%;
+    width: 100%;
 }
 
 .formcontain {
@@ -426,9 +417,13 @@ button:hover {
 }
 
 .footer {
-    margin-top: 50px;
+    margin-top: 80px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 158, 102);
+    border-radius: 4px;
+    width: 100%;
 }
-
 
 /* -------------------------------------------------------------------------------Mobile View 500px----------------------------------------------------------------------------------- */
 
