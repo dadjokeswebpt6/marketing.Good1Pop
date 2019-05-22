@@ -38,11 +38,11 @@ nav {
 }
 
 
-/* 800 view */
+/* 800px view */
 
 @media (max-width: 800px) {
     .logo {
-        margin-left: -45px;
+        margin-left: -100px;
     }
 }
 
@@ -78,7 +78,7 @@ nav {
 }
 
 
-/* 500 view */
+/* 500px view */
 
 @media (max-width: 500px) {
     .logo {
