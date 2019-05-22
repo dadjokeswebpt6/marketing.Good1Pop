@@ -1,0 +1,8 @@
+.footer {
+    margin-top: 80px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 158, 102);
+    border-radius: 4px;
+    width: 100%;
+}

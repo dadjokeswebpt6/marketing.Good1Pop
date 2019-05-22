@@ -1,8 +1,8 @@
- /* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
- 
+
 html,
 body,
 div,
@@ -91,6 +91,8 @@ video {
     font: inherit;
     vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
 
 article,
@@ -133,6 +135,8 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
+
 /* -----------------------------------------------------------------------End of Global Reset----------------------------------------------------------------------------------------- */
 
 * {
@@ -196,43 +200,6 @@ img {
 .bold {
     font-weight: bold;
     font-size: 2rem;
-}
-
-.logo {
-    width: 250px;
-    padding-bottom: 20px;
-    margin-left: 28px;
-    box-shadow: none;
-}
-
-.nav-container {
-    margin-bottom: 20px;
-    padding-bottom: 12px;
-    border-bottom: 24px solid #303c6c;
-    padding: 2px;
-}
-
-nav {
-    margin-left: 480px;
-    margin-top: 180px;
-}
-
-.nav1 {
-    display: flex;
-    flex-direction: row;
-    font-size: 2rem;
-    align-items: center;
-}
-
-.anchors {
-    text-decoration: none;
-    color: black;
-    margin-left: 50px;
-}
-
-.anchors:hover {
-    opacity: 0.8;
-    color: blue;
 }
 
 .top-section {
@@ -318,14 +285,7 @@ nav {
     background-color: #555;
 }
 
-.footer {
-    margin-top: 80px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    background-color: rgb(255, 158, 102);
-    border-radius: 4px;
-    width: 100%;
-}
+
 /* -------------------------------------------------------------------------------Tablet View 800px----------------------------------------------------------------------------------- */
 
 @media (max-width: 800px) {
@@ -333,43 +293,6 @@ nav {
         max-width: 700px;
         width: 100%;
         margin: 0 auto;
-    }
-}
-
-@media (max-width: 800px) {
-    .logo {
-        margin-left: -45px;
-    }
-}
-
-@media (max-width: 800px) {
-    .nav1 {
-        display: -inline-flex;
-        flex-direction: row;
-        align-items: center;
-        margin-left: 100px;
-        width: 100%;
-    }
-}
-
-@media (max-width: 800px) {
-    nav {
-        display: inline-flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        margin: 0 auto;
-        width: 100%;
-    }
-}
-
-@media (max-width: 800px) {
-    .nav-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-right: 150px;
-        font-size: 2rem;
-        width: 100%;
     }
 }
 
@@ -417,6 +340,8 @@ nav {
         align-items: center;
     }
 }
+
+
 /* -------------------------------------------------------------------------------Mobile View 500px----------------------------------------------------------------------------------- */
 
 @media (max-width: 500px) {
@@ -424,49 +349,6 @@ nav {
         max-width: 450px;
         width: 100%;
         margin: 0 auto;
-    }
-}
-
-@media (max-width: 500px) {
-    .logo {
-        padding-bottom: 5px;
-        padding-left: 48px;
-    }
-}
-
-@media (max-width: 500px) {
-    .nav1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 2rem;
-        /* padding-right: 92px; */
-    }
-}
-
-@media (max-width: 500px) {
-    .nav-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 2rem;
-        border-bottom: 24px solid #303C6C;
-        max-width: 100%;
-        padding-right: 50px;
-    }
-}
-
-@media (max-width: 500px) {
-    .anchors {
-        display: flex;
-        flex-direction: column;
-        width: 500px;
-        margin-top: 20px;
-        padding: 25px;
-        border-bottom: none;
-        align-items: center;
-        /* border: 1px solid red; */
-        margin-left: -60px;
     }
 }
 

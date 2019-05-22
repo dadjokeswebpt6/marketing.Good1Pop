@@ -1,0 +1,124 @@
+/* desktop view */
+
+.logo {
+    width: 250px;
+    padding-bottom: 20px;
+    margin-left: 28px;
+    box-shadow: none;
+}
+
+.nav-container {
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 24px solid #303c6c;
+    padding: 2px;
+}
+
+nav {
+    margin-left: 480px;
+    margin-top: 180px;
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    align-items: center;
+}
+
+.anchors {
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+}
+
+.anchors:hover {
+    opacity: 0.8;
+    color: blue;
+}
+
+
+/* 800 view */
+
+@media (max-width: 800px) {
+    .logo {
+        margin-left: -45px;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav1 {
+        display: -inline-flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 100px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    nav {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 150px;
+        font-size: 2rem;
+        width: 100%;
+    }
+}
+
+
+/* 500 view */
+
+@media (max-width: 500px) {
+    .logo {
+        padding-bottom: 5px;
+        padding-left: 48px;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2rem;
+        /* padding-right: 92px; */
+    }
+}
+
+@media (max-width: 500px) {
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2rem;
+        border-bottom: 24px solid #303C6C;
+        max-width: 100%;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    .anchors {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        margin-top: 20px;
+        padding: 25px;
+        border-bottom: none;
+        align-items: center;
+        /* border: 1px solid red; */
+        margin-left: -60px;
+    }
+}
