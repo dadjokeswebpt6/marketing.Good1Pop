@@ -430,6 +430,7 @@
  @media (max-width: 500px) {
      .logo {
          padding-bottom: 5px;
+         padding-left: 48px;
      }
  }
  
@@ -455,7 +456,7 @@
      }
  }
  
- @media (max-width: 500px) {
+@media (max-width: 500px) {
      .anchors {
          display: flex;
          flex-direction: column;
@@ -468,6 +469,10 @@
          margin-left: -60px;
      }
  }
+
+
+
+
  
  @media (max-width: 500px) {
      .top-section {
