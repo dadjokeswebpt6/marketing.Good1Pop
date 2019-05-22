@@ -29,7 +29,7 @@ nav {
 .anchors {
     text-decoration: none;
     color: black;
-    margin-left: 50px;
+    margin-left: 25px;
 }
 
 .anchors:hover {
@@ -42,7 +42,7 @@ nav {
 
 @media (max-width: 800px) {
     .logo {
-        margin-left: -100px;
+        margin-left: -30px;
     }
 }
 
@@ -63,6 +63,7 @@ nav {
         flex-wrap: nowrap;
         margin: 0 auto;
         width: 100%;
+        margin-left: 150px;
     }
 }
 
@@ -84,6 +85,13 @@ nav {
     .logo {
         padding-bottom: 5px;
         padding-left: 48px;
+        margin-left: -100px;
+    }
+}
+
+@media (max-width: 500px) {
+    nav {
+        margin-left: -4px;
     }
 }
 
