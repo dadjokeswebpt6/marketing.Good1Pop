@@ -20,7 +20,7 @@ let jokes = ["Did you hear about the restaurant on the moon? Great food, no atmo
     "The shovel was a ground-breaking invention.",
     "Dad, can you put the cat out? I didn't know it was on fire.",
     "This graveyard looks overcrowded. People must be dying to get in there.",
-    "Whenever the cashier at the grocery store asks my dad if he would likeq the milk in a bag he replies, 'No, just leave it in the carton!'",
+    "Whenever the cashier at the grocery store asks my dad if he would like the milk in a bag he replies, 'No, just leave it in the carton!'",
     "5/4 of people admit that they’re bad with fractions.",
     "Two goldfish are in a tank. One says to the other, 'do you know how to drive this thing?'",
     "What do you call a man with a rubber toe? Roberto.",
