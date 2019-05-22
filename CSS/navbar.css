@@ -1,15 +1,20 @@
 .logo {
-    max-width: 200px;
+    width: 250px;
     padding-bottom: 20px;
     margin-left: 28px;
+    box-shadow: none;
+}
+
+nav {
+    margin-left: 480px;
+    margin-top: 180px;
 }
 
 .nav-container {
-    width: 800px;
-    max-width: 800px;
     margin-bottom: 20px;
     padding-bottom: 12px;
-    border-bottom: 12px solid #303c6c;
+    border-bottom: 24px solid #303c6c;
+    padding: 2px;
 }
 
 @media (max-width: 500px) {
@@ -26,7 +31,7 @@
 
 .nav1 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     font-size: 2rem;
     align-items: center;
 }
@@ -42,18 +47,75 @@
     color: blue;
 }
 
+@media (max-width: 800px) {
+    .logo {
+        margin-left: -45px;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav1 {
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 100px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    nav {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 150px;
+        font-size: 2rem;
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 500px) {
     .logo {
         padding-bottom: 5px;
-        margin-right: 75px;
     }
 }
 
 @media (max-width: 500px) {
     .nav1 {
         display: flex;
+        flex-direction: column;
         align-items: center;
         font-size: 2rem;
+        /* padding-right: 92px; */
+    }
+}
+
+@media (max-width: 500px) {
+    .nav-container {
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+        font-size: 2rem;
+        border-bottom: 24px solid #303C6C;
+        max-width: 100%;
+        margin: 20px;
     }
 }
 
@@ -61,8 +123,22 @@
     .anchors {
         display: flex;
         flex-direction: column;
+        width: 500px;
         margin-top: 20px;
-        padding: 10px 100px;
-        border-bottom: 1px solid black;
+        padding: 5px;
+        border-bottom: none;
+        align-items: center;
+        /* border: 1px solid red; */
+        margin-left: -60px;
+    }
+}
+
+@media (max-width: 500px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 2rem;
+        /* padding-right: 92px; */
     }
 }
