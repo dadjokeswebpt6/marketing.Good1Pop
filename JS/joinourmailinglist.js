@@ -1,3 +1,5 @@
+//scroll to top bar//
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -13,6 +15,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 };
 
+//event listeners for the navigation//
 let navItems = document.querySelectorAll('.anchors');
 navItems.forEach(function(item){
     item.addEventListener('mouseenter', function(event){
@@ -27,6 +30,7 @@ navItems.forEach(function(item){
     });
 });
 
+//image carousel//
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -54,6 +58,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+//sign up button toggle//
 function myFunction() {
     var x = document.getElementById("hidesignup");
     if (x.style.display === "block")

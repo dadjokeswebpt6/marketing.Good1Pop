@@ -1,3 +1,5 @@
+//top button feature//
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -13,6 +15,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 };
 
+//event listeners to make the paragraph/h2 text blue when hovered over//
 let welcome = document.querySelector('.welcome');
 welcome.addEventListener('mouseenter', function(event){
     welcome.style.color = 'blue';
@@ -57,6 +60,7 @@ navItems.forEach(function(item){
     });
 });
 
+//dom manipulation to change lorem ipsum off of the page//
 document.getElementById("p1").innerHTML = "If you are interested in our product, please feel free to sign up and begin taking advantage of all we have to offer! We have normal updates and it takes no time at all to sign up and join all of us here at Good 1 Pop!";
 
 
