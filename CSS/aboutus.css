@@ -175,10 +175,10 @@ p {
 
 .container {
     max-width: 1200px;
-    width: 90%;
+    width: 96%;
     margin: 0 auto;
     background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(252, 255, 241), rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(251, 255, 254), rgb(255, 251, 245));
-    box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.678), 0 250px 500px 0 rgba(247, 240, 168, 0.651);
+    box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.678), 0 250px 500px 0 rgba(24, 86, 121, 0.651);
     padding: 20px;
 }
 
@@ -310,13 +310,32 @@ section.us {
     }
 }
 
+@media (max-width: 800px) {
+    .person {
+        width: 95%;
+    }
+}
+
+@media (max-width: 800px) {
+    .person h2 {
+        width: 98%;
+    }
+}
+
+@media (max-width: 800px) {
+    .person p {
+        max-width: 98%;
+        margin: 1px;
+    }
+}
+
 
 /* ------------------------------------------------------------------Media 500px View------------------------------------------------------------------------------------------ */
 
 @media (max-width: 500px) {
     .container {
         max-width: 450px;
-        width: 95%;
+        width: 96%;
         margin: 0 auto;
     }
 }
